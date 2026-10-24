@@ -53,9 +53,8 @@ Done when the table is printed.
 
 The user picks one variant or a mix ("A's signature with B's body"). A mix is the decision itself; write it as one more variant and return to step 3 only when the user asks to see it.
 
-- **Inside an interview** (a grilling session or similar): the winner answers that session's question. Record it the way the session records answers and return to the session; implementation waits for the session's own plan.
-- **Standalone**: implement the winner in the real location under the project's own rules (tests, checks). Rewrite it there rather than copying the variant, adding the error handling and edge cases the variant left out.
+The winner answers that session's question. Record it the way the session records answers and return to the session.
 
 Then delete every variant file and subfolder, and the `prototypes/` directory if it is now empty.
 
-Done when the winner is recorded or implemented and no `*.prototype.*` file from this run remains.
+Done when the winner is recorded and no `*.prototype.*` file from this run remains.
